@@ -1,9 +1,16 @@
-
-
-
 # Weather Monitoring System
 
 This project implements a real-time data processing system for weather monitoring with rollups and aggregates. It utilizes the OpenWeatherMap API to fetch weather data for major Indian cities and provides summarized insights.
+
+## Documentation
+ -[Postman](https://documenter.getpostman.com/view/31555061/2sAXxWaUvL)
+
+- GET /fetch/{city}: Fetch current weather for a specific city
+- GET /summary/{city}: Get daily weather summary for a city
+- GET /historical/{city}: Get historical weather trend for a city
+- POST /alerts: Set temperature alert for a city
+- GET /alerts: Get all configured alerts
+- GET /alert_visualization: Visualize alert thresholds
 
 ## Features
 
