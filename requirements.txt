@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+motor
+pydantic
+requests
+python-dotenv
+matplotlib
+pytest
+httpx
+pytest-asyncio
